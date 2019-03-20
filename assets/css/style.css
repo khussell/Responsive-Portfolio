@@ -1,0 +1,315 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+body{position: relative;}
+
+.bar{
+    background-color: #ffffff;
+    height: 78px;
+    width: 960px;
+    margin: 0 auto;   
+}
+
+.name{
+    background-color:#418ea0;
+    color: white;
+    padding: 20px;
+    width: 275px;
+    float: left;
+    letter-spacing: 1.5px;
+    
+}
+
+h1{font-family: 'Georgia', Times, Times New Roman, serif;}
+
+.index,
+.port,
+.contact{   
+    float: right;
+    list-style-type: none;
+    padding-right: 10px;
+    padding-left: 10px;   
+}
+
+.index,
+.port {
+    border-right: solid 1px lightgrey;
+    margin-top: 25px;
+    height: 20px;
+}
+
+.contact{ margin-top: 25px;}
+
+.navA{
+    text-decoration: none; 
+    color: grey;   
+}
+
+.navA:hover {
+    border: 2px grey solid;
+    padding: 5px;
+}
+
+.links{float: right;}
+
+.all{
+    clear:both;
+    background: url(../../assets/images/morocco-blue/morocco-blue.png) top left repeat;
+    background-size: auto cover;
+    background-position: top left;
+    height: 900px;
+    border-top: 2px grey solid;  
+}
+
+.about{
+    color: #418ea0;
+    padding: 20px;
+}
+
+hr{margin: 0 20px;}
+
+.content{
+    background-color:white;
+    width: 960px;
+    margin: 0 auto;
+    height: 720px;
+    margin-top: 30px;
+}
+
+.myPhoto{
+    height: 450px;
+    padding: 30px 20px;
+}
+
+.paragraph1,
+.paragraph2,
+.paragraph3{
+    width: 600px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: dimgray;
+}
+
+.paragraph1{padding-top: 30px;}
+
+.paragraph2{padding-top: 20px;}
+
+.paragraph3{
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px; 
+    width: 100%;
+}
+
+.myPhoto,
+.paragraph1,
+.paragraph2,
+.paragraph3{
+    float: left;
+}
+
+footer{
+    clear: both;
+    height: 85px;
+    background-color: #666666;
+    width: 100%;
+    border-top: 10px #418ea0 solid;
+    position: absolute;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+}
+
+.copyright{
+    color: silver;
+    position: relative;
+    top: 45px;
+}
+
+
+
+
+
+/* Portfolio page */
+
+.portfolio{height: 1250px;}
+
+.portContent{
+    background-color: white;
+    width: 960px;
+    margin: 0 auto;
+    height: 1050px;
+    margin-top: 30px;
+}
+
+.portHead{
+    color:#418ea0;
+    padding: 20px;
+}
+
+.portImg{
+    height: 300px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5{
+    position: relative;
+}
+
+.img1 > .portA,
+.img2 > .portA,
+.img3 > .portA,
+.img4 > .portA,
+.img5 > .portA{
+    position: absolute;
+    bottom: 25px;
+    left: 30px;
+    text-decoration: none;
+}
+
+.img1 > .portA:hover,
+.img2 > .portA:hover,
+.img3 > .portA:hover,
+.img4 > .portA:hover,
+.img5 > .portA:hover{
+  border: 3px white solid;
+}
+
+.img1, 
+.img2,
+.img3,
+.img4,
+.img5{
+    float: left;
+}
+
+h4{
+    background-color: #418ea0;
+    color: white;
+    text-align: center;
+    width: 373px;
+    padding: 10px 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+
+
+/* Contact page*/
+.form{height: 720px;}
+
+.formContent{
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+    height: 550px;
+    margin-top: 30px;
+}
+
+.formContent > h1{
+    color:#418ea0;
+    padding: 20px;
+}
+
+form{
+    padding: 20px;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+    color: dimgray;
+    
+}
+
+.sameSize{width: 915px;}
+
+.bttn{
+    background-color:#418ea0;
+    color: white;
+    padding: 10px 30px;
+}
+
+.bttn:hover{border: dimgray 3px solid;}
+
+.insertName{padding-bottom: 10px ;}
+
+.insertEmail{padding: 10px 0;}
+
+.insertMessage{padding: 10px 0;}
+
+
+
+/* small landscape phone size index about page*/
+
+@media screen and (min-width:576px){
+    
+.bar{
+    background-color: #ffffff;
+    height: 78px;
+    width: 960px;
+    margin: 0 auto;   
+}
+
+.name{
+    background-color:#418ea0;
+    color: white;
+    padding: 20px;
+    width: 275px;
+    float: left;
+    letter-spacing: 1.5px;
+    
+}
+
+h1{font-family: 'Georgia', Times, Times New Roman, serif;}
+
+.index,
+.port,
+.contact{   
+    float: right;
+    list-style-type: none;
+    padding-right: 10px;
+    padding-left: 10px;   
+}
+
+.index,
+.port {
+    border-right: solid 1px lightgrey;
+    margin-top: 25px;
+    height: 20px;
+}
+
+.contact{ margin-top: 25px;}
+
+.navA{
+    text-decoration: none; 
+    color: grey;   
+}
+
+.navA:hover {
+    border: 2px grey solid;
+    padding: 5px;
+}
+
+.links{float: right;}
+
+.all{
+    clear:both;
+    background: url(../../assets/images/morocco-blue/morocco-blue.png) top left repeat;
+    background-size: auto cover;
+    background-position: top left;
+    height: 900px;
+    border-top: 2px grey solid;  
+}
+
+.about{
+    color: #418ea0;
+    padding: 20px;
+}
+}
