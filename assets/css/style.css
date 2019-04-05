@@ -167,6 +167,7 @@
     
     .portImg{
         height: 300px;
+        width: 410px;
         padding-left: 30px;
         padding-top: 20px;
     }
@@ -175,7 +176,8 @@
     .img2,
     .img3,
     .img4,
-    .img5{
+    .img5,
+    .img6{
         position: relative;
     }
     
@@ -183,7 +185,8 @@
     .img2 > .portA,
     .img3 > .portA,
     .img4 > .portA,
-    .img5 > .portA{
+    .img5 > .portA,
+    .img6 > .portA{
         position: absolute;
         bottom: 25px;
         left: 30px;
@@ -194,7 +197,8 @@
     .img2 > .portA:hover,
     .img3 > .portA:hover,
     .img4 > .portA:hover,
-    .img5 > .portA:hover{
+    .img5 > .portA:hover,
+    .img6 > .portA:hover{
       border: 3px white solid;
     }
     
@@ -202,7 +206,8 @@
     .img2,
     .img3,
     .img4,
-    .img5{
+    .img5,
+    .img6{
         float: left;
     }
     
@@ -210,15 +215,12 @@
         background-color: #418ea0;
         color: white;
         text-align: center;
-        width: 373px;
+        width: 380px;
         padding: 10px 0;
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
         font-weight: normal;
     }
-    
-    .hFourOne{width: 381.5px}
-
-    .hFourTwo{width:397px}
+ 
     
     
     
@@ -420,6 +422,7 @@
     
     .portImg{
         height: 240px;
+        width: 340px;
         padding-left: 30px;
         padding-top: 20px;
     }
@@ -428,13 +431,15 @@
     .img2,
     .img3,
     .img4,
-    .img5{position: relative;}
+    .img5,
+    .img6{position: relative;}
     
     .img1 > .portA,
     .img2 > .portA,
     .img3 > .portA,
     .img4 > .portA,
-    .img5 > .portA{
+    .img5 > .portA,
+    .img6 > .portA{
         position: absolute;
         bottom: 25px;
         left: 30px;
@@ -445,7 +450,8 @@
     .img2 > .portA:hover,
     .img3 > .portA:hover,
     .img4 > .portA:hover,
-    .img5 > .portA:hover{
+    .img5 > .portA:hover,
+    .img6 > .portA:hover{
       border: 3px white solid;
     }
     
@@ -453,7 +459,8 @@
     .img2,
     .img3,
     .img4,
-    .img5{
+    .img5,
+    .img6{
         float: left;
     }
     
@@ -461,15 +468,13 @@
         background-color: #418ea0;
         color: white;
         text-align: center;
-        width: 293px;
+        width: 310px;
         padding: 10px 0;
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
         font-weight: normal;
     }
 
-    .hFourOne{width: 300px}
 
-    .hFourTwo{width:311.5px}
     
     
     
@@ -668,6 +673,7 @@
         
         .portImg{
             height: 180px;
+            width: 250px;
             padding-left: 30px;
             padding-top: 20px;
         }
@@ -676,7 +682,8 @@
         .img2,
         .img3,
         .img4,
-        .img5{
+        .img5,
+        .img6{
             position: relative;
         }
         
@@ -684,7 +691,8 @@
         .img2 > .portA,
         .img3 > .portA,
         .img4 > .portA,
-        .img5 > .portA{
+        .img5 > .portA,
+        .img6 > .portA{
             position: absolute;
             bottom: 25px;
             left: 30px;
@@ -695,7 +703,8 @@
         .img2 > .portA:hover,
         .img3 > .portA:hover,
         .img4 > .portA:hover,
-        .img5 > .portA:hover{
+        .img5 > .portA:hover,
+        .img6 > .portA:hover{
           border: 3px white solid;
         }
         
@@ -703,7 +712,8 @@
         .img2,
         .img3,
         .img4,
-        .img5{
+        .img5,
+        .img6{
             float: left;
         }
         
@@ -711,16 +721,14 @@
             background-color: #418ea0;
             color: white;
             text-align: center;
-            width: 214px;
+            width: 220px;
             padding: 5px 0;
             font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
             font-weight: normal;
             font-size: 15px;
         }
         
-        .hFourOne{width: 218px}
-
-        .hFourTwo{width:226.5px}
+        
         
         
         
@@ -906,13 +914,13 @@
         /*portfolio page xs portrait phone*/
         
     
-        .portfolio{height: 1350px;}
+        .portfolio{height: 1550px;}
     
         .portContent{
             background-color: white;
             width: 330px;
             margin: 0 auto;
-            height: 1220px;
+            height: 1420px;
             margin-top: 30px;
         }
         
@@ -923,6 +931,7 @@
         
         .portImg{
             height: 215px;
+            width: 300px;
             padding-left: 30px;
             padding-top: 20px;
         }
@@ -931,7 +940,8 @@
         .img2,
         .img3,
         .img4,
-        .img5{
+        .img5,
+        .img6{
             position: relative;
         }
         
@@ -939,7 +949,8 @@
         .img2 > .portA,
         .img3 > .portA,
         .img4 > .portA,
-        .img5 > .portA{
+        .img5 > .portA,
+        .img6 > .portA{
             position: absolute;
             bottom: 25px;
             left: 30px;
@@ -950,7 +961,8 @@
         .img2 > .portA:hover,
         .img3 > .portA:hover,
         .img4 > .portA:hover,
-        .img5 > .portA:hover{
+        .img5 > .portA:hover,
+        .img6 > .portA:hover{
           border: 3px white solid;
         }
         
@@ -958,22 +970,21 @@
         .img2,
         .img3,
         .img4,
-        .img5{float: left}
+        .img5,
+        .img6{float: left}
         
         h4{
             background-color: #418ea0;
             color: white;
             text-align: center;
-            width: 261px;
+            width: 270px;
             padding: 5px 0;
             font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
             font-weight: normal;
             font-size: 15px;
         }
     
-        .hFourOne{width: 266px}
-
-        .hFourTwo{width:276.5px}
+      
     
     
     
