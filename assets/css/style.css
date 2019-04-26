@@ -150,13 +150,13 @@
     
     /* Portfolio page */
     
-    .portfolio{height: 1250px;}
+    .portfolio{height: 1650px;}
     
     .portContent{
         background-color: white;
         width: 960px;
         margin: 0 auto;
-        height: 1050px;
+        height: 1450px;
         margin-top: 30px;
     }
     
@@ -177,7 +177,8 @@
     .img3,
     .img4,
     .img5,
-    .img6{
+    .img6,
+    .img7{
         position: relative;
     }
     
@@ -186,7 +187,8 @@
     .img3 > .portA,
     .img4 > .portA,
     .img5 > .portA,
-    .img6 > .portA{
+    .img6 > .portA,
+    .img7 > .portA{
         position: absolute;
         bottom: 25px;
         left: 30px;
@@ -198,7 +200,8 @@
     .img3 > .portA:hover,
     .img4 > .portA:hover,
     .img5 > .portA:hover,
-    .img6 > .portA:hover{
+    .img6 > .portA:hover,
+    .img7 > .portA:hover{
       border: 3px white solid;
     }
     
@@ -207,9 +210,12 @@
     .img3,
     .img4,
     .img5,
-    .img6{
+    .img6,
+    .img7{
         float: left;
     }
+
+
     
     h4{
         background-color: #418ea0;
@@ -405,13 +411,13 @@
     
     /* tablet size Portfolio page */
     
-    .portfolio{height: 1050px;}
+    .portfolio{height: 1450px;}
     
     .portContent{
         background-color: white;
         width: 700px;
         margin: 0 auto;
-        height: 890px;
+        height: 1100px;
         margin-top: 30px;
     }
     
@@ -432,14 +438,16 @@
     .img3,
     .img4,
     .img5,
-    .img6{position: relative;}
+    .img6,
+    .img7{position: relative;}
     
     .img1 > .portA,
     .img2 > .portA,
     .img3 > .portA,
     .img4 > .portA,
     .img5 > .portA,
-    .img6 > .portA{
+    .img6 > .portA,
+    .img7 > .portA{
         position: absolute;
         bottom: 25px;
         left: 30px;
@@ -451,6 +459,7 @@
     .img3 > .portA:hover,
     .img4 > .portA:hover,
     .img5 > .portA:hover,
+    .img6 > .portA:hover,
     .img6 > .portA:hover{
       border: 3px white solid;
     }
@@ -460,7 +469,8 @@
     .img3,
     .img4,
     .img5,
-    .img6{
+    .img6,
+    .img7{
         float: left;
     }
     
@@ -656,13 +666,13 @@
     
     /* portfolio page landscape phone size*/
     
-        .portfolio{height: 900px;}
+        .portfolio{height: 1100px;}
     
         .portContent{
             background-color: white;
             width: 520px;
             margin: 0 auto;
-            height: 670px;
+            height: 900px;
             margin-top: 30px;
         }
         
@@ -683,7 +693,8 @@
         .img3,
         .img4,
         .img5,
-        .img6{
+        .img6,
+        .img7{
             position: relative;
         }
         
@@ -692,7 +703,8 @@
         .img3 > .portA,
         .img4 > .portA,
         .img5 > .portA,
-        .img6 > .portA{
+        .img6 > .portA,
+        .img7 > .portA{
             position: absolute;
             bottom: 25px;
             left: 30px;
@@ -704,7 +716,8 @@
         .img3 > .portA:hover,
         .img4 > .portA:hover,
         .img5 > .portA:hover,
-        .img6 > .portA:hover{
+        .img6 > .portA:hover,
+        .img7 > .portA:hover{
           border: 3px white solid;
         }
         
@@ -713,7 +726,8 @@
         .img3,
         .img4,
         .img5,
-        .img6{
+        .img6,
+        .img7{
             float: left;
         }
         
@@ -914,13 +928,13 @@
         /*portfolio page xs portrait phone*/
         
     
-        .portfolio{height: 1550px;}
+        .portfolio{height: 1850px;}
     
         .portContent{
             background-color: white;
             width: 330px;
             margin: 0 auto;
-            height: 1420px;
+            height: 1650px;
             margin-top: 30px;
         }
         
@@ -941,7 +955,8 @@
         .img3,
         .img4,
         .img5,
-        .img6{
+        .img6,
+        .img7{
             position: relative;
         }
         
@@ -950,7 +965,8 @@
         .img3 > .portA,
         .img4 > .portA,
         .img5 > .portA,
-        .img6 > .portA{
+        .img6 > .portA,
+        .img7 > .portA{
             position: absolute;
             bottom: 25px;
             left: 30px;
@@ -962,7 +978,8 @@
         .img3 > .portA:hover,
         .img4 > .portA:hover,
         .img5 > .portA:hover,
-        .img6 > .portA:hover{
+        .img6 > .portA:hover,
+        .img7 > .portA:hover{
           border: 3px white solid;
         }
         
@@ -971,7 +988,8 @@
         .img3,
         .img4,
         .img5,
-        .img6{float: left}
+        .img6,
+        .img7{float: left}
         
         h4{
             background-color: #418ea0;
