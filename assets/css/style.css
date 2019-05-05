@@ -178,7 +178,8 @@
     .img4,
     .img5,
     .img6,
-    .img7{
+    .img7,
+    .img8{
         position: relative;
     }
     
@@ -188,7 +189,8 @@
     .img4 > .portA,
     .img5 > .portA,
     .img6 > .portA,
-    .img7 > .portA{
+    .img7 > .portA,
+    .img8 > .portA{
         position: absolute;
         bottom: 25px;
         left: 30px;
@@ -201,7 +203,8 @@
     .img4 > .portA:hover,
     .img5 > .portA:hover,
     .img6 > .portA:hover,
-    .img7 > .portA:hover{
+    .img7 > .portA:hover,
+    .img8 > .portA:hover{
       border: 3px white solid;
     }
     
@@ -211,7 +214,8 @@
     .img4,
     .img5,
     .img6,
-    .img7{
+    .img7,
+    .img8{
         float: left;
     }
 
@@ -439,7 +443,8 @@
     .img4,
     .img5,
     .img6,
-    .img7{position: relative;}
+    .img7,
+    .img8{position: relative;}
     
     .img1 > .portA,
     .img2 > .portA,
@@ -447,7 +452,8 @@
     .img4 > .portA,
     .img5 > .portA,
     .img6 > .portA,
-    .img7 > .portA{
+    .img7 > .portA,
+    .img8 > .portA{
         position: absolute;
         bottom: 25px;
         left: 30px;
@@ -460,7 +466,8 @@
     .img4 > .portA:hover,
     .img5 > .portA:hover,
     .img6 > .portA:hover,
-    .img6 > .portA:hover{
+    .img7 > .portA:hover,
+    .img8 > .portA:hover{
       border: 3px white solid;
     }
     
@@ -470,7 +477,8 @@
     .img4,
     .img5,
     .img6,
-    .img7{
+    .img7,
+    .img8{
         float: left;
     }
     
@@ -694,7 +702,8 @@
         .img4,
         .img5,
         .img6,
-        .img7{
+        .img7,
+        .img8{
             position: relative;
         }
         
@@ -704,7 +713,8 @@
         .img4 > .portA,
         .img5 > .portA,
         .img6 > .portA,
-        .img7 > .portA{
+        .img7 > .portA,
+        .img8 > .portA{
             position: absolute;
             bottom: 25px;
             left: 30px;
@@ -717,7 +727,8 @@
         .img4 > .portA:hover,
         .img5 > .portA:hover,
         .img6 > .portA:hover,
-        .img7 > .portA:hover{
+        .img7 > .portA:hover,
+        .img8 > .portA:hover{
           border: 3px white solid;
         }
         
@@ -727,7 +738,8 @@
         .img4,
         .img5,
         .img6,
-        .img7{
+        .img7,
+        .img8{
             float: left;
         }
         
@@ -956,7 +968,8 @@
         .img4,
         .img5,
         .img6,
-        .img7{
+        .img7,
+        .img8{
             position: relative;
         }
         
@@ -966,7 +979,8 @@
         .img4 > .portA,
         .img5 > .portA,
         .img6 > .portA,
-        .img7 > .portA{
+        .img7 > .portA,
+        .img8 > .portA{
             position: absolute;
             bottom: 25px;
             left: 30px;
@@ -979,7 +993,8 @@
         .img4 > .portA:hover,
         .img5 > .portA:hover,
         .img6 > .portA:hover,
-        .img7 > .portA:hover{
+        .img7 > .portA:hover,
+        .img8 > .portA:hover{
           border: 3px white solid;
         }
         
@@ -989,7 +1004,8 @@
         .img4,
         .img5,
         .img6,
-        .img7{float: left}
+        .img7,
+        .img8{float: left}
         
         h4{
             background-color: #418ea0;
